@@ -15,6 +15,7 @@ int main(){
         //printf("%c\n",*p2);
         if(*p1 != *p2){
             printf("Not palindrom");
+            k = 0;
             break;
         }
         if(*p1 == *p2){
